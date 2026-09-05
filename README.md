@@ -32,7 +32,7 @@ Controls are:
 * 30 points for a double. 
 * 60 points for a triple.
 * 100 points for a quadruple.
-* the line completion bonuses are multiplied with (level - 1). A double scores 90 points on level 2 for example.
+* the line completion bonuses are multiplied with (level + 1). A double scores 90 points on level 2 for example.
 
 The level starts at 0. it is increased to 1 at a score of 100 points and is incremented with each following decade reached.
 
