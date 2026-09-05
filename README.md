@@ -22,7 +22,7 @@ The code is intended to be used with the canon symphony architecture and spec.is
 Controls are:
 * 7 or arrow key left to move the piece left
 * 9 or arrow key right to move the piece right
-* 8 or arrow key up to rotate the piece clockwise
+* 8 or arrow key up to rotate the piece counterclockwise
 * 4 or arrow key down to drop the piece faster
 
 ## Scoring
@@ -34,7 +34,7 @@ Controls are:
 * 100 points for a quadruple.
 * the line completion bonuses are multiplied with (level + 1). A double scores 90 points on level 2 for example.
 
-The level starts at 0. it is increased to 1 at a score of 100 points and is incremented with each following decade reached.
+The level starts at 0. It is increased to 1 at a score of 100 points and is incremented with each following decade reached.
 
 ## Implementation
 
