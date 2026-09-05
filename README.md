@@ -9,12 +9,12 @@ Chetyris is an assembly implementation of a falling‑block puzzle game for the 
 * Scoring incorporates push-down points and bonuses for multiple lines completed
 * Displays the score, lines completed and current level in decimal
 * Detects the game over state and stops the game
-* This project uses all IO devices of the symphony architecture: keyboard, time and screen. The game campaign levels only require wiring the components but there is no level requiring you to use or code with them.
+* This project uses all IO devices of the Symphony architecture: keyboard, time and screen. The Turing Complete game campaign levels only require wiring the components but there is no level requiring you to use or code with them.
 
 ## How to use
 The code is intended to be used with the canon symphony architecture and spec.isa file. The steps are:
 
-1. load the file as chetyris.asm in the main memory of your symphony architecture in the sandbox mode.
+1. Load the file as chetyris.asm in the main memory of your symphony architecture in the sandbox mode.
 2. Set the keyboard component to "Location mode".
 3. Activate the recording of the keyboard.
 4. Run the simulation with a frequency of 10-100kHz. The piece fall speed is independent of the clock but the drop speed not. Higher frequency results in harder drops.
