@@ -82,7 +82,7 @@ x/10 = x*1/10 ~ x*a/b = (x*a) >> log_2(b)
 In this case 2^17 = 131072 is chosen as the power of 2 or b. Then 131072/10 = 13107.2 so a=13108 is chosen. The approximation needs to overestimate since the shifting will only discard bits (meaning round down). So division is done by multiplying by 13108 and then shifting the result 17 bits to the right. The error from the truth of 1/10 is e=0.000006 and will only matter at very high scores, namely after 1/10/e ~ 16000.
 
 ## Etymology
-Chetyris is is combination of the Russian word for four ("четыре", chetyre) and "Tennis"
+Chetyris is a combination of the Russian word for four ("четыре", chetyre) and "Tennis"
 
 ## License
 Chetyris is licensed under the Boost Software License 1.0
